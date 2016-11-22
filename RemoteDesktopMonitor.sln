@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDMDalWSR", "RDMDalWSR\RDMDalWSR.csproj", "{16971DE9-1093-4843-B310-BE02332FCE79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWebServiceRest", "ConsumeWebServiceRest\ConsumeWebServiceRest.csproj", "{9F82A195-4C5C-417B-8765-9E99DB407557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDMService", "RDMService\RDMService.csproj", "{F2000BF5-4F54-4248-B014-72246E364941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{16971DE9-1093-4843-B310-BE02332FCE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16971DE9-1093-4843-B310-BE02332FCE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16971DE9-1093-4843-B310-BE02332FCE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F82A195-4C5C-417B-8765-9E99DB407557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F82A195-4C5C-417B-8765-9E99DB407557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F82A195-4C5C-417B-8765-9E99DB407557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F82A195-4C5C-417B-8765-9E99DB407557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2000BF5-4F54-4248-B014-72246E364941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2000BF5-4F54-4248-B014-72246E364941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2000BF5-4F54-4248-B014-72246E364941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2000BF5-4F54-4248-B014-72246E364941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
