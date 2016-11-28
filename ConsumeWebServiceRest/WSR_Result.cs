@@ -25,11 +25,22 @@ namespace ConsumeWebServiceRest
 
         #region Constructeurs
 
+        /// <summary>
+        /// Constructeur par défaut
+        /// </summary>
         public WSR_Result()
         {
             IsSuccess = true;
         }
 
+        /// <summary>
+        /// constructeur d'un wsr_result
+        /// </summary>
+        /// <param name="data">Le résultat</param>
+        /// <param name="serialize">Booléen qui indique si on sérialise ou pas</param>
+        /// <param name="sourceMemberName">Paramètres facultatif, initialisé s'il existe, automatiquement par le programme. Recupere l'objet source</param>
+        /// <param name="sourceFilePath">Recupere le chemin de la source</param>
+        /// <param name="sourceLineNumber">Recupère la ligne dans le code de la source</param>
         public WSR_Result(object data, bool serialize,
                          [CallerMemberName] string sourceMemberName = "",
                          [CallerFilePath] string sourceFilePath = "",

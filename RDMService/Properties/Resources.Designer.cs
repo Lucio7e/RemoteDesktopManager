@@ -8,9 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ConsumeWebServiceRest.Properties {
+namespace RDMService.Properties {
     using System;
-    using System.Reflection;
     
     
     /// <summary>
@@ -40,7 +39,7 @@ namespace ConsumeWebServiceRest.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ConsumeWebServiceRest.Properties.Resources", typeof(Resources).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RDMService.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -62,65 +61,83 @@ namespace ConsumeWebServiceRest.Properties {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à L&apos;appel du service a echoué pour la raison suivante : {0}.
+        ///   Recherche une chaîne localisée semblable à Une erreur interne au service s&apos;est produite.
         /// </summary>
-        internal static string ERREUR_APPELSERVICE {
+        internal static string ERREURINTERNE {
             get {
-                return ResourceManager.GetString("ERREUR_APPELSERVICE", resourceCulture);
+                return ResourceManager.GetString("ERREURINTERNE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à Une erreur lors de la désérialisation des paramètres a eu lieu.
+        ///   Recherche une chaîne localisée semblable à L&apos;utilisateur {0} est deconnecté.
         /// </summary>
-        internal static string ERREUR_DESERIALISATIONRETOUR {
+        internal static string KEYDOWNLOADLOGOUT {
             get {
-                return ResourceManager.GetString("ERREUR_DESERIALISATIONRETOUR", resourceCulture);
+                return ResourceManager.GetString("KEYDOWNLOADLOGOUT", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à Une erreur lors de la sérialisation des paramètres a eu lieu.
+        ///   Recherche une chaîne localisée semblable à Le pseudoDownload est obligatoire.
         /// </summary>
-        internal static string ERREUR_SERIALISATIONPARAMS {
+        internal static string KEYDOWNLOADVIDE {
             get {
-                return ResourceManager.GetString("ERREUR_SERIALISATIONPARAMS", resourceCulture);
+                return ResourceManager.GetString("KEYDOWNLOADVIDE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à Erreur de la sérialisation.
+        ///   Recherche une chaîne localisée semblable à Le pseudo {0} existe déjà.
         /// </summary>
-        internal static string ERREUR_SERIALISATIONRESULT {
+        internal static string KEYUTILISE {
             get {
-                return ResourceManager.GetString("ERREUR_SERIALISATIONRESULT", resourceCulture);
+                return ResourceManager.GetString("KEYUTILISE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à Timeout du service à l&apos;adresse {0}.
+        ///   Recherche une chaîne localisée semblable à La clé du paramètre {0}  est inconnue.
         /// </summary>
-        internal static string ERREUR_TIMEOUT {
+        internal static string PARAMKEYINCONNU {
             get {
-                return ResourceManager.GetString("ERREUR_TIMEOUT", resourceCulture);
+                return ResourceManager.GetString("PARAMKEYINCONNU", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à application/json.
+        ///   Recherche une chaîne localisée semblable à Le type du paramètre {0} est inconnu.
         /// </summary>
-        internal static string SERIALISATION_JSON {
+        internal static string PARAMTYPEINVALID {
             get {
-                return ResourceManager.GetString("SERIALISATION_JSON", resourceCulture);
+                return ResourceManager.GetString("PARAMTYPEINVALID", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à application/xml.
+        ///   Recherche une chaîne localisée semblable à Le pseudo est obligatoire.
         /// </summary>
-        internal static string SERIALISATION_XML {
+        internal static string PSEUDOVIDE {
             get {
-                return ResourceManager.GetString("SERIALISATION_XML", resourceCulture);
+                return ResourceManager.GetString("PSEUDOVIDE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Le password est obligatoire.
+        /// </summary>
+        internal static string PWDVIDE {
+            get {
+                return ResourceManager.GetString("PWDVIDE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Le password est incorrect.
+        /// </summary>
+        internal static string PWDWRONG {
+            get {
+                return ResourceManager.GetString("PWDWRONG", resourceCulture);
             }
         }
     }
