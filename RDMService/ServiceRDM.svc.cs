@@ -49,7 +49,7 @@ namespace RDMService
             {
                 //tout se passe bien
                 case AccountError.Ok:
-                    ret = new WSR_Result();
+                    ret = new WSR_Result(password,true);
                     break;
                 //Le pseudo passé est vide/null
                 case AccountError.KeyNullOrEmpty:
